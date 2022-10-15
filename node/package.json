@@ -10,5 +10,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "playwright": "^1.27.1"
-  }
+  },
+  "type": "module"
 }
