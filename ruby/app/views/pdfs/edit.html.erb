@@ -1,0 +1,11 @@
+<h1>Editing pdf</h1>
+
+<%= render "form", pdf: @pdf %>
+
+<br>
+
+<div>
+  <%= link_to "#{url_for(@pdf.file)}", url_for(@pdf.file) %> |
+  <%= link_to "Show this pdf", @pdf %> |
+  <%= link_to "Back to pdfs", pdfs_path %>
+</div>
